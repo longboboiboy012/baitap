@@ -1,0 +1,55 @@
+.container{
+	/* background: green; */
+	width: 800px;
+	height: 200px;
+	margin: 0 auto;
+}
+.ima img{
+	float: left;
+ width: 200px;
+    height: 200px;
+    background: #7fee1d;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.chu{
+	float: right;
+	/* background: red; */
+	width: 560px;
+	height: 100%;
+
+}
+blockquote{
+	position: relative;
+	float: left;
+}
+blockquote::before{
+	top: -0.3rem;
+	left: 1.8rem;
+	float: left;
+	position: absolute;
+	font-size: 4rem;
+	font-family: serif;
+	content:"\201C";
+	color: blue;
+	font-weight: bold;
+}
+blockquote p{
+	margin-left: 1rem;
+}
+footer{
+	margin-left: 1.5rem;
+
+}
+@media screen and (max-width: 980px) {
+	.ima{
+		margin: 0 auto;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.ima{
+		margin: 0 auto;
+	}
+}
